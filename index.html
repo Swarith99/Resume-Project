@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+    * {
+      font-family: Poppins;
+      font-weight: 300;
+    }
+    
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      margin-top: 10px;
+      background: linear-gradient(to right, #000000, #902105);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    th,
+    td {
+      border: 2px solid black;
+      width: 200px;
+      text-align: left;
+    }
+    
+    th {
+      font-weight: 500;
+    }
+    
+    table {
+      border-collapse: collapse;
+      margin-left: 30px;
+    }
+    
+    h2 {
+      border-bottom: 2px solid;
+    }
+    
+    #goals {
+      margin-left: 40px;
+    }
+    
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      border-bottom: 2px dashed;
+    }
+    
+    a:active {
+      color: grey;
+    }
+    
+    img {
+      animation: rotate3dAnimation 4s infinite linear;
+      transform-style: preserve-3d;
+      perspective: 800px;
+      position: relative;
+      top: 0px;
+      border-radius: 360px;
+    }
+    
+    @keyframes rotate3dAnimation {
+      0% {
+        transform: rotate3d(1, 1, 0, 0deg);
+      }
+      100% {
+        transform: rotate3d(180, 180, 180, 360deg);
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Swarith</h1>
+  <ul id="education">
+    <h2>Education</h2>
+    <li>Schooling (Currently): Middle Schooler learning frontend web development at Sunlake Academy of Math and Science.</li>
+    <li>GPA: 4.0</li>
+    <li>Degree: None at the moment</li>
+  </ul>
+  <ul id="skills">
+    <h2>Skills</h2>
+    <li>Python Development and Data Science (Basic)</li>
+    <li>Frontend Development (Learning)</li>
+    <li>Powershell Scripting (syntax and basic cmdlets)</li>
+    <li>CLI Navigation(Basic)</li>
+    <li>HTML</li>
+    <li>Teamwork</li>
+    <li>Problem Solving</li>
+  </ul>
+  <h2 id="goals">Goals</h2>
+  <p id="goals">My goal is to be a satalite engineer or have my own tech startup when I grow up</p>
+  <ul id="projects">
+    <h2>Projects</h2>
+    <li><a href="https://codepen.io/Swarith99/pen/emJyXyo" target="_blank">Calculator</a></li>
+    <li><a href="https://codepen.io/Swarith99/pen/vELeRBm" target="_blank">To-do List (Work In Progress)</a></li>
+    <li><a href="https://codepen.io/Swarith99/pen/OPMVvRe" target="_blank">Sign Up Form Game (Work In Progress)</a></li>
+  </ul>
+  <table>
+    <theader>
+      <tr>
+        <th>Past Experience</th>
+        <th>Time</th>
+        <tbody>
+          <tr>
+            <td>Frontend Learning</td>
+            <td>2025-Present</td>
+          </tr>
+          <tr>
+            <td>VEX Robotics</td>
+            <td>2022-Present</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>2024-present</td>
+          </tr>
+          <tr>
+            <td>Future City</td>
+            <td>2024-present</td>
+          </tr>
+        </tbody>
+      </tr>
+    </theader>
+  </table>
+  <img src="https://th.bing.com/th/id/OIP.71Puwt_KN1Ab1vkyjK4dWAHaHL?         w=173&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Rotating Cookie (My Signiture)">
+  <p>The cookie is a signiture for me</p>
+</body>
+
+</html>
